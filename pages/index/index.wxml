@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="bgImg"
+  style="background: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201604%2F26%2F20160426211519_eKtkX.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614916786&t=b0651baf575f3a06a9e412aa9f020610');background-size: cover">
+  <view class="bgImgCover">
+    <view class="welTextWrap" bindtap="bindViewTap">
+      <text class="welText">{{motto}}</text>
+      <mp-icon class="welTextArrow" icon="arrow" color="#fff" size="{{13}}"></mp-icon>
+    </view>
+  </view>
+</view>

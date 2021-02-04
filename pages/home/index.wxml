@@ -1,0 +1,9 @@
+<!--home.wxml-->
+<view class="homeWrap">
+  <view class="itemWrap" wx:for="{{moduleList}}" wx:key="name" wx:for-item="item">
+    <view class="itemBox" style="background-color: {{item.color}}" bindtap="toLog">
+      <mp-icon icon="{{item.icon}}" color="#fff" size="{{25}}"></mp-icon>
+      <text class="text">{{item.name}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+
+.table {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.table-flex {
+  display: flex;
+}
+.table-theme {
+  font-size: 28rpx;
+}
+.table-item {
+  font-size: 24rpx;
+  opacity: 0.6;
+}
+.item {
+  width: 250rpx;
+  flex-shrink: 0;
+  white-space: nowrap;
+  padding: 10rpx;
+  border-bottom: 1rpx solid #5f677a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

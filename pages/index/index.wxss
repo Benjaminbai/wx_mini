@@ -1,0 +1,25 @@
+/**index.wxss**/
+page{
+  height: 100%;
+ }
+
+.bgImg {
+  width: 100%;
+  height: 100%;
+}
+.bgImgCover {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .1);
+}
+.welTextWrap {
+  display: inline-block;
+  font-size: large;
+  color: #fff;
+  margin-top: 950rpx;
+}
+.welTextArrow {
+  display: inline-block;
+  margin-left: 15px;
+}

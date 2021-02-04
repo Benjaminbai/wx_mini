@@ -1,0 +1,10 @@
+<view class="table-outer-box" style="width: 100%">
+  <scroll-view class="scroll-view flex-column" scroll-y="true" scroll-x="true">
+    <view class="table table-theme table-flex">
+      <view class="item" wx:for="{{tableThemes}}" wx:key="index">{{item}}</view>
+    </view>
+    <view class="table table-item table-flex" wx:for="{{tableItems}}" wx:key="index">
+      <view class="item" wx:for="{{item}}" wx:key="index">{{item}}</view>
+    </view>
+  </scroll-view>
+</view>

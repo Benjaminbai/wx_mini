@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "站点资源使用周报",
+  "usingComponents": {
+    "table": "../../components/Table/index",
+    "ec-canvas": "../../components/ec-canvas/ec-canvas"
+  }
+}

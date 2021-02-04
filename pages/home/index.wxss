@@ -1,0 +1,22 @@
+
+.homeWrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.itemWrap {
+  margin-top: 100rpx;
+}
+.itemBox {
+  height: 300rpx;
+  width: 300rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+  color: #fff;
+}
+.text {
+  display: inline-block;
+  margin-left: 10rpx;
+}
