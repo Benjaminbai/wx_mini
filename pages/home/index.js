@@ -31,8 +31,8 @@ Page({
     this.onShow()
   },
   toLog() {
-    wx.switchTab({
-      url: '../logs/index'
+    wx.navigateTo({
+      url: '../report/index'
     });
   },
   onShow() {

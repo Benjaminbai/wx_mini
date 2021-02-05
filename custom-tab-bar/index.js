@@ -16,7 +16,7 @@ Component({
         text: "分区"
       },
       {
-        pagePath: "/pages/logs/index",
+        pagePath: "/pages/index/index",
         iconPath: "/image/icon_API.png",
         selectedIconPath: "/image/icon_API_HL.png",
         text: "我的"

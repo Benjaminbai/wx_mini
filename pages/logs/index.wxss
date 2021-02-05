@@ -11,6 +11,20 @@
   width: 100%;
 }
 .echart-box {
-  height: 600rpx;
+  height: 400rpx;
   width: 100%;
+}
+.text-box {
+  width: 100%;
+  font-size: 25rpx;
+  line-height: 50rpx;
+  margin: 20rpx 0;
+  color: #8e9194;
+}
+.text-title {
+  font-weight: bold;
+  display: inline-block;
+  width: 250rpx;
+  text-align: right;
+  margin-right: 20rpx;
 }

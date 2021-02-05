@@ -12,6 +12,9 @@ function initChart(canvas, width, height, dpr) {
 
   var option = {
     backgroundColor: '#fff',
+    title: {
+      text: "Title"
+    },
     tooltip: {
       trigger: 'axis',
       backgroundColor: 'rgba(0,0,0,0.5)',
@@ -39,10 +42,10 @@ function initChart(canvas, width, height, dpr) {
       },
     },
     grid: {
-      top: '5%',
-      left: '5%',
+      top: '20%',
+      left: '8%',
       right: '3%',
-      bottom: '8%',
+      bottom: '10%',
       // containLabel: true
     },
     xAxis: [{
@@ -151,112 +154,6 @@ Page({
       onInit: initChart
     },
     logs: [],
-    themeArr: {
-      siteName: '站点名称',
-      insNum: '实例数量',
-      spc: '资源规格',
-      cpuRatio: '平均CPU使用率(%)',
-      cpuMax: "CPU使用峰值(%)",
-      cpuMaxTime: "CPU使用峰值时间",
-      publishOrNot: "峰值时间是否发布时间",
-      cpu95: "CPU使用95分位线",
-      cpu99: "CPU使用99分位线",
-      qpsAverage: "平均QPS",
-      qpsMax: "QPS峰值",
-      owner: "站点负责人",
-      comments: "备注",
-    },
-    itemArr: [{
-        siteName: 'loanuap.ppdapi.com',
-        ins: 8,
-        spc: "C-2C4G",
-        cpuRatio: '7.0',
-        cpuMax: "102.3",
-        cpuMaxTime: "2021-01-31 00:07:00",
-        publishOrNot: "否",
-        cpu95: "20.1",
-        cpu99: "71.8",
-        qpsAverage: "-",
-        qpsMax: "-",
-        owner: "谭越",
-        comments: ""
-      },
-      {
-        siteName: 'loanuap.ppdapi.com',
-        ins: 8,
-        spc: "C-2C4G",
-        cpuRatio: '7.0',
-        cpuMax: "102.3",
-        cpuMaxTime: "2021-01-31 00:07:00",
-        publishOrNot: "否",
-        cpu95: "20.1",
-        cpu99: "71.8",
-        qpsAverage: "-",
-        qpsMax: "-",
-        owner: "谭越",
-        comments: ""
-      },
-      {
-        siteName: 'loanuap.ppdapi.com',
-        ins: 8,
-        spc: "C-2C4G",
-        cpuRatio: '7.0',
-        cpuMax: "102.3",
-        cpuMaxTime: "2021-01-31 00:07:00",
-        publishOrNot: "否",
-        cpu95: "20.1",
-        cpu99: "71.8",
-        qpsAverage: "-",
-        qpsMax: "-",
-        owner: "谭越",
-        comments: ""
-      },
-      {
-        siteName: 'loanuap.ppdapi.com',
-        ins: 8,
-        spc: "C-2C4G",
-        cpuRatio: '7.0',
-        cpuMax: "102.3",
-        cpuMaxTime: "2021-01-31 00:07:00",
-        publishOrNot: "否",
-        cpu95: "20.1",
-        cpu99: "71.8",
-        qpsAverage: "-",
-        qpsMax: "-",
-        owner: "谭越",
-        comments: ""
-      },
-      {
-        siteName: 'loanuap.ppdapi.com',
-        ins: 8,
-        spc: "C-2C4G",
-        cpuRatio: '7.0',
-        cpuMax: "102.3",
-        cpuMaxTime: "2021-01-31 00:07:00",
-        publishOrNot: "否",
-        cpu95: "20.1",
-        cpu99: "71.8",
-        qpsAverage: "-",
-        qpsMax: "-",
-        owner: "谭越",
-        comments: ""
-      },
-      {
-        siteName: 'loanuap.ppdapi.com',
-        ins: 8,
-        spc: "C-2C4G",
-        cpuRatio: '7.0',
-        cpuMax: "102.3",
-        cpuMaxTime: "2021-01-31 00:07:00",
-        publishOrNot: "否",
-        cpu95: "20.1",
-        cpu99: "71.8",
-        qpsAverage: "-",
-        qpsMax: "-",
-        owner: "谭越",
-        comments: ""
-      }
-    ]
   },
   onLoad() {
     this.onShow()

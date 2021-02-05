@@ -1,0 +1,22 @@
+<!--pages/report/index.wxml-->
+<view>
+  <view class="reportCard-box" wx:for="{{arr}}" wx:key="index" wx:for-item="item" bindtap="tapToLog">
+    <view>
+      <text class="siteName">站点：{{item.siteName}}</text>
+    </view>
+    <view>
+      <text class="siteName">CPU使用率：</text>
+      <mp-icon icon="info" color="#58bd6a" size="{{20}}"></mp-icon>
+    </view>
+    <view>
+      <text class="siteName">CPU使用峰值：</text>
+      <mp-icon icon="info" color="#da5c47" size="{{20}}"></mp-icon>
+    </view>
+    <view class="detailCheck-box">
+      <view class="detailCheck">
+        <text>detail</text>
+        <mp-icon icon="arrow" color="#ddd" size="{{10}}"></mp-icon>
+      </view>
+    </view>
+  </view>
+</view>

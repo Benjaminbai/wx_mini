@@ -1,6 +1,49 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <table class="table-box" tableThemes="{{themeArr}}" tableItems="{{itemArr}}"></table>
+  <!-- <table class="table-box" tableThemes="{{themeArr}}" tableItems="{{itemArr}}"></table> -->
+  <view class="text-box">
+    <view>
+      <text><text class="text-title">站点名称:</text> loanuap.ppdapi.com</text>
+    </view>
+    <view>
+      <text><text class="text-title">实例数量:</text> 8</text>
+    </view>
+    <view>
+      <text><text class="text-title">资源规格:</text> C-2C4G</text>
+    </view>
+    <view>
+      <text><text class="text-title">平均CPU使用率(%):</text> 7.0</text>
+    </view>
+    <view>
+      <text><text class="text-title">CPU使用峰值(%):</text> 102.3</text>
+    </view>
+    <view>
+      <text><text class="text-title">CPU使用峰值时间:</text> 2021-01-31 00:07:00</text>
+    </view>
+    <view>
+      <text><text class="text-title">峰值时间是否发布时间:</text> 否</text>
+    </view>
+    <view>
+      <text><text class="text-title">CPU使用95分位线:</text> 20.1</text>
+    </view>
+    <view>
+      <text><text class="text-title">CPU使用99分位线:</text> 71.8</text>
+    </view>
+    <view>
+      <text><text class="text-title">平均QPS:</text> -</text>
+    </view>
+    <view>
+      <text><text class="text-title">QPS峰值:</text> -</text>
+    </view>
+    <view>
+      <text><text class="text-title">站点负责人:</text> 谭越</text>
+    </view>
+    <view>
+      <text><text class="text-title">备注:</text></text>
+    </view>
+  </view>
 
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}" class="echart-box"></ec-canvas>
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}" class="echart-box"></ec-canvas>
   <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}" class="echart-box"></ec-canvas>
 </view>

@@ -8,15 +8,16 @@
   margin-top: 100rpx;
 }
 .itemBox {
-  height: 300rpx;
-  width: 300rpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10rpx;
-  color: #fff;
+  height: 110rpx;
+  width: 110rpx;
+  text-align: center;
+}
+.icon {
+  line-height: 50rpx;
 }
 .text {
-  display: inline-block;
-  margin-left: 10rpx;
+  font-size: 20rpx;
+  display: block;
+  line-height: 50rpx;
+  color: #8e9194;
 }

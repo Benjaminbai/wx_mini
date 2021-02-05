@@ -1,0 +1,20 @@
+/* pages/report/index.wxss */
+.reportCard-box {
+  border: 1rpx solid #eee;
+  margin: 40rpx;
+  padding: 10rpx 50rpx 10rpx 50rpx;
+  border-radius: 10rpx;
+  box-shadow: 2rpx 2rpx 10rpx 0px rgba(0, 0, 0, .2);
+}
+.siteName {
+  line-height: 66rpx;
+  font-size: 25rpx;
+}
+.detailCheck {
+  border-top: 1rpx solid #eee;
+  display: flex;
+  justify-content: space-between;
+  color: #8e9194;
+  font-size: 25rpx;
+  line-height: 60rpx;
+}
